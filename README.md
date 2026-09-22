@@ -41,3 +41,22 @@ BEHAVIOR
 ├── motor_speed
 ├── motor_force
 └── neural_controller_weights
+
+# Runs pytest 
+pytest -s
+
+
+                   TORSO
+          ┌──────────────────┐
+          │                  │
+          └──────────────────┘
+             │            │
+          rear hip     front hip
+             │            │
+          upper          upper
+             │            │
+           knee          knee
+             │            │
+          lower          lower
+            ───          ───
+           foot          foot
